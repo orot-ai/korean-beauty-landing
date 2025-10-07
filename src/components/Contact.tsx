@@ -53,14 +53,18 @@ export default function Contact() {
 
         {/* Main CTA */}
         <div className="text-center mb-12">
-          <button
-            onClick={() => alert('Booking link will be connected')}
+          <a
+            href="https://wa.me/821037573918"
             className="group relative inline-flex items-center gap-3 bg-beige-800 text-white px-10 py-5 text-lg font-semibold hover:bg-beige-900 transform hover:scale-105 transition-all duration-300 shadow-2xl"
           >
-            <span>SECURE YOUR SPOT NOW</span>
+            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.149-.67.149-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.149-.173.198-.297.297-.495.099-.198.05-.372-.025-.521-.074-.149-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2.546 20.2A1.01 1.01 0 0 0 3.8 21.454l3.032-.892A9.957 9.957 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/>
+            </svg>
+            <span>BOOK NOW VIA WHATSAPP</span>
             <MdArrowForward className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
-          </button>
-          <p className="text-beige-700 mt-3">立即預約您的位置</p>
+          </a>
+          <p className="text-beige-700 mt-3">立即通過WhatsApp預約</p>
         </div>
 
         {/* Contact Info */}

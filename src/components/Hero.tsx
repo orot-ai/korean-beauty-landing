@@ -50,28 +50,19 @@ export default function Hero() {
           <p className="text-beige-700 text-sm">11月29-30日 · 上午11時 - 晚上8時</p>
         </div>
 
-        {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8 animate-fade-in animation-delay-500">
-          <button
-            onClick={() => alert('Booking link will be connected')}
-            className="group relative px-8 py-4 bg-beige-800 text-white font-semibold hover:bg-beige-900 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
-          >
-            <span className="flex items-center gap-2">
-              Book Now
-              <ArrowRightIcon className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </span>
-          </button>
-
+        {/* CTA Button - WhatsApp Only */}
+        <div className="flex justify-center mb-8 animate-fade-in animation-delay-500">
           <a
             href="https://wa.me/821037573918"
-            className="px-8 py-4 border-2 border-beige-800 text-beige-800 font-semibold hover:bg-beige-50 transform hover:scale-105 transition-all duration-300"
+            className="group relative px-8 py-4 bg-beige-800 text-white font-semibold hover:bg-beige-900 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
           >
             <span className="flex items-center gap-2">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.149-.67.149-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.149-.173.198-.297.297-.495.099-.198.05-.372-.025-.521-.074-.149-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
                 <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2.546 20.2A1.01 1.01 0 0 0 3.8 21.454l3.032-.892A9.957 9.957 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/>
               </svg>
-              WhatsApp
+              Book via WhatsApp
+              <ArrowRightIcon className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </span>
           </a>
         </div>

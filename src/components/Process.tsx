@@ -14,10 +14,10 @@ export default function Process() {
     {
       number: '1',
       icon: <MdSmartphone className="w-8 h-8 text-white" />,
-      title: 'Book Online',
-      subtitle: '線上預約',
-      description: 'Reserve your spot online',
-      subdescription: '線上預約您的位置'
+      title: 'Book via WhatsApp',
+      subtitle: 'WhatsApp預約',
+      description: 'Reserve your spot on WhatsApp',
+      subdescription: '通過WhatsApp預約您的位置'
     },
     {
       number: '2',
