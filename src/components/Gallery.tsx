@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useState } from 'react'
 import {
   ChevronLeftIcon,
   ChevronRightIcon,
@@ -7,8 +7,6 @@ import {
 } from '@heroicons/react/24/outline'
 
 export default function Gallery() {
-  const eyebrowScrollRef = useRef<HTMLDivElement>(null)
-  const lipScrollRef = useRef<HTMLDivElement>(null)
   const [currentPage, setCurrentPage] = useState(0)
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const [selectedImageIndex, setSelectedImageIndex] = useState<number>(0)
