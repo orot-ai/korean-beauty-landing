@@ -81,7 +81,7 @@ export default function Process() {
                       {step.icon}
                     </div>
                   </div>
-                  <div className="absolute -top-2 -right-2 w-8 h-8 bg-charcoal rounded-full flex items-center justify-center text-white text-sm font-bold">
+                  <div className="absolute -top-2 -right-2 w-8 h-8 bg-rose-400 rounded-full flex items-center justify-center text-white text-sm font-bold">
                     {step.number}
                   </div>
                 </div>
